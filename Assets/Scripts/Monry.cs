@@ -14,7 +14,7 @@ namespace Schoo_uGUI {
         }
 
         private IEnumerator DestroyAfterFewSeconds() {
-            yield return new WaitForSeconds(Random.Range(5.0f, 10.0f));
+            yield return new WaitForSeconds(Random.Range(3.0f, 10.0f));
             Destroy(this.gameObject);
         }
 
