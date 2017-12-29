@@ -7,6 +7,8 @@ namespace Schoo_uGUI {
 
         public GameObject PrefabMonry;
 
+        public Counter Counter;
+
         private IEnumerator Start() {
             while (true) {
                 Instantiate(this.PrefabMonry, this.transform);
