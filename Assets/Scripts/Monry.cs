@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-namespace Schoo01 {
+namespace Schoo_uGUI {
 
     public class Monry : MonoBehaviour {
 
