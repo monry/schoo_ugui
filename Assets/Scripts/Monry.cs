@@ -7,8 +7,8 @@ namespace Schoo_uGUI {
 
         private void Start() {
             this.GetComponent<RectTransform>().anchoredPosition = new Vector2(
-                Random.Range(-512.0f, 512.0f),
-                Random.Range(-384.0f, 384.0f)
+                Random.Range(-960.0f, 960.0f),
+                Random.Range(-540.0f, 540.0f)
             );
             this.StartCoroutine(this.DestroyAfterFewSeconds());
         }
