@@ -28,7 +28,7 @@ Released under the MIT license, see [LICENSE.txt](LICENSE.txt)
 ## 作者に権利が帰属するもの
 
 * [background.jpg](Assets/Images/background.jpg)
-  * [イラストや](http://www.irasutoya.com/)さん
+  * [いらすとや](http://www.irasutoya.com/)さん
   * [星空のイラスト（背景素材）](http://www.irasutoya.com/2017/08/blog-post_796.html)
 * [monry.png](Assets/Images/monry.png)
   * [湊川あい](https://twitter.com/llminatoll)さん
