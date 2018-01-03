@@ -6,7 +6,7 @@ namespace Schoo_uGUI {
 
     public class Controller : MonoBehaviour {
 
-        private const float LEAST_TIME = 30.0f;
+        private const float LEAST_TIME = 15.0f;
 
         public static Controller Instance;
 
@@ -20,7 +20,7 @@ namespace Schoo_uGUI {
             Instance = this;
         }
 
-        public void StartGame() {
+        private void Start() {
             this.Counter.Count = 0;
             this.Counter.Total = 0;
             this.Spawner.CanSpawn = true;
@@ -28,8 +28,9 @@ namespace Schoo_uGUI {
             this.StartCoroutine(this.StartTimer());
         }
 
-        public void StopGame() {
+        private void StopGame() {
             this.Spawner.CanSpawn = false;
+            this.Spawner.DestroyAllChildren();
             this.LeastTime.gameObject.SetActive(false);
         }
 

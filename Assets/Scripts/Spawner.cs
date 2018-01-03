@@ -20,6 +20,12 @@ namespace Schoo_uGUI {
             }
         }
 
+        public void DestroyAllChildren() {
+            foreach (Monry child in this.GetComponentsInChildren<Monry>()) {
+                Destroy(child.gameObject);
+            }
+        }
+
     }
 
 }
