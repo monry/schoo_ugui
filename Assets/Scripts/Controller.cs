@@ -16,14 +16,17 @@ namespace Schoo_uGUI {
 
         public Image LeastTime;
 
+        public Button ButtonStart;
+
         private void Awake() {
             Instance = this;
         }
 
-        private void Start() {
+        public void StartGame() {
             this.Counter.Count = 0;
             this.Counter.Total = 0;
             this.Spawner.CanSpawn = true;
+            this.ButtonStart.gameObject.SetActive(false);
             this.LeastTime.gameObject.SetActive(true);
             this.StartCoroutine(this.StartTimer());
         }
@@ -31,6 +34,7 @@ namespace Schoo_uGUI {
         private void StopGame() {
             this.Spawner.CanSpawn = false;
             this.Spawner.DestroyAllChildren();
+            this.ButtonStart.gameObject.SetActive(true);
             this.LeastTime.gameObject.SetActive(false);
         }
 

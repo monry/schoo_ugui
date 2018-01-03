@@ -19,6 +19,11 @@ namespace Schoo_uGUI {
             Destroy(this.gameObject);
         }
 
+        public void OnClick() {
+            Controller.Instance.Counter.Count++;
+            Destroy(this.gameObject);
+        }
+
     }
 
 }
