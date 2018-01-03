@@ -10,7 +10,7 @@ namespace Schoo_uGUI {
                 Random.Range(-480.0f, 480.0f),
                 Random.Range(-270.0f, 270.0f)
             );
-            this.transform.parent.GetComponent<Spawner>().Counter.Total++;
+            Controller.Instance.Counter.Total++;
             this.StartCoroutine(this.DestroyAfterFewSeconds());
         }
 
