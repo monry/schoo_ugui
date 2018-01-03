@@ -7,8 +7,6 @@ namespace Schoo_uGUI {
 
         public GameObject PrefabMonry;
 
-        public Counter Counter;
-
         public bool CanSpawn = false;
 
         private IEnumerator Start() {
