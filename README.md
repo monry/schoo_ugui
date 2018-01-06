@@ -21,7 +21,7 @@
 
 次節で特別に表記がないものは、以下のライセンスにて提供されます。
 
-Copyright (c) 2017 Tetsuya Mori
+Copyright (c) 2017-2018 Tetsuya Mori
 
 Released under the MIT license, see [LICENSE.txt](LICENSE.txt)
 
