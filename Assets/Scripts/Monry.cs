@@ -23,7 +23,15 @@ namespace Schoo_uGUI {
         }
 
         public void OnClick() {
+            this.StartCoroutine(this.OnClickCoroutine());
+        }
+
+        private IEnumerator OnClickCoroutine() {
             Controller.Instance.Counter.Count++;
+            this.GetComponent<Animator>().SetTrigger("Pump");
+            yield return new WaitForSeconds(0.5f);
+            this.GetComponent<Animator>().SetTrigger("Hide");
+            yield return new WaitForSeconds(1.0f);
             Destroy(this.gameObject);
         }
 
