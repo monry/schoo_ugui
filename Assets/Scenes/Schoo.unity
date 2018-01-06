@@ -192,7 +192,6 @@ GameObject:
   - component: {fileID: 165439808}
   - component: {fileID: 165439807}
   - component: {fileID: 165439806}
-  - component: {fileID: 165439805}
   - component: {fileID: 165439809}
   m_Layer: 5
   m_Name: Canvas
@@ -201,22 +200,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &165439805
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 165439804}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
 --- !u!114 &165439806
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -500,6 +483,7 @@ GameObject:
   m_Component:
   - component: {fileID: 726542463}
   - component: {fileID: 726542464}
+  - component: {fileID: 726542465}
   m_Layer: 5
   m_Name: Canvas_Back
   m_TagString: Untagged
@@ -546,6 +530,22 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 1
   m_TargetDisplay: 0
+--- !u!114 &726542465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 726542462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1 &825330356
 GameObject:
   m_ObjectHideFlags: 0
@@ -677,6 +677,7 @@ GameObject:
   m_Component:
   - component: {fileID: 870149682}
   - component: {fileID: 870149683}
+  - component: {fileID: 870149684}
   m_Layer: 5
   m_Name: Canvas_Front
   m_TagString: Untagged
@@ -726,6 +727,22 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 3
   m_TargetDisplay: 0
+--- !u!114 &870149684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 870149681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1 &1114065968
 GameObject:
   m_ObjectHideFlags: 0
