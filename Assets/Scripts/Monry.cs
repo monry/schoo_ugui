@@ -11,16 +11,27 @@ namespace Schoo_uGUI {
                 Random.Range(-270.0f, 270.0f)
             );
             Controller.Instance.Counter.Total++;
+            this.GetComponent<Animator>().SetTrigger("Show");
             this.StartCoroutine(this.DestroyAfterFewSeconds());
         }
 
         private IEnumerator DestroyAfterFewSeconds() {
             yield return new WaitForSeconds(Random.Range(3.0f, 10.0f));
+            this.GetComponent<Animator>().SetTrigger("Hide");
+            yield return new WaitForSeconds(1.0f);
             Destroy(this.gameObject);
         }
 
         public void OnClick() {
+            this.StartCoroutine(this.OnClickCoroutine());
+        }
+
+        private IEnumerator OnClickCoroutine() {
             Controller.Instance.Counter.Count++;
+            this.GetComponent<Animator>().SetTrigger("Pump");
+            yield return new WaitForSeconds(0.5f);
+            this.GetComponent<Animator>().SetTrigger("Hide");
+            yield return new WaitForSeconds(1.0f);
             Destroy(this.gameObject);
         }
 
