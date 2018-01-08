@@ -11,7 +11,6 @@ namespace Schoo_uGUI {
                 Random.Range(-270.0f, 270.0f)
             );
             Controller.Instance.Counter.Total++;
-            this.GetComponent<Animator>().SetTrigger("Show");
             this.StartCoroutine(this.DestroyAfterFewSeconds());
         }
 
