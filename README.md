@@ -27,9 +27,14 @@ Released under the MIT license, see [LICENSE.txt](LICENSE.txt)
 
 ## 作者に権利が帰属するもの
 
+### [いらすとや](http://www.irasutoya.com/)さん
+
 * [background.jpg](Assets/Images/background.jpg)
-  * [いらすとや](http://www.irasutoya.com/)さん
   * [星空のイラスト（背景素材）](http://www.irasutoya.com/2017/08/blog-post_796.html)
+* [ojisan.png](Assets/Images/ojisan.png)
+  * [薄毛の男性のイラスト（中年）](http://www.irasutoya.com/2018/01/blog-post_70.html)
+
+### [湊川あい](https://twitter.com/llminatoll)さん
+
 * [monry.png](Assets/Images/monry.png)
-  * [湊川あい](https://twitter.com/llminatoll)さん
 
