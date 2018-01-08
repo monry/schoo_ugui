@@ -46,6 +46,16 @@ namespace Schoo_uGUI {
             Destroy(this.gameObject);
         }
 
+        private void OnCollisionExit2D(Collision2D other) {
+            this.StartCoroutine(this.OnCollisionExit2DCoroutine());
+        }
+
+        private IEnumerator OnCollisionExit2DCoroutine() {
+            this.GetComponent<Animator>().SetTrigger("Hide");
+            yield return new WaitForSeconds(1.0f);
+            Destroy(this.gameObject);
+        }
+
     }
 
 }
