@@ -11,7 +11,19 @@ namespace Schoo_uGUI {
                 Random.Range(-270.0f, 270.0f)
             );
             Controller.Instance.Counter.Total++;
+            this.AddRandomForce();
             this.StartCoroutine(this.DestroyAfterFewSeconds());
+        }
+
+        private void AddRandomForce() {
+            // ランダムな角度に力を加える
+            float degree = Random.Range(0.0f, 360.0f);
+            Vector2 force = new Vector2(Mathf.Cos(Mathf.Deg2Rad * degree), Mathf.Sin(Mathf.Deg2Rad * degree));
+            this.GetComponent<Rigidbody2D>().AddForce(force * 100.0f);
+
+            // ランダムなトルクを与える
+            float torque = Random.Range(-1.0f, 1.0f);
+            this.GetComponent<Rigidbody2D>().AddTorque(torque * 100.0f);
         }
 
         private IEnumerator DestroyAfterFewSeconds() {
