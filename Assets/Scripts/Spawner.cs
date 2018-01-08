@@ -13,7 +13,7 @@ namespace Schoo_uGUI {
             while (true) {
                 if (this.CanSpawn) {
                     Instantiate(this.PrefabMonry, this.transform);
-                    yield return new WaitForSeconds(Random.Range(0.5f, 2.0f));
+                    yield return new WaitForSeconds(Random.Range(0.1f, 1.0f));
                 } else {
                     yield return null;
                 }
