@@ -38,3 +38,8 @@ Released under the MIT license, see [LICENSE.txt](LICENSE.txt)
 
 * [monry.png](Assets/Images/monry.png)
 
+### [秋山 博紀(AKI)](http://akiroom.com/tkool/)さん
+
+* Tilemap 用マップチップ素材
+  * [王都の周りは今日も晴れ♪](http://akiroom.com/tkool/2k/map/road03_a2.html)
+
