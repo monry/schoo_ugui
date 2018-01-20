@@ -33,6 +33,8 @@ Released under the MIT license, see [LICENSE.txt](LICENSE.txt)
   * [星空のイラスト（背景素材）](http://www.irasutoya.com/2017/08/blog-post_796.html)
 * [ojisan.png](Assets/Images/ojisan.png)
   * [薄毛の男性のイラスト（中年）](http://www.irasutoya.com/2018/01/blog-post_70.html)
+* [cherry.png](Assets/Images/cherry.png)
+  * [さくらんぼ・チェリーのイラスト（フルーツ）](http://www.irasutoya.com/2012/11/blog-post_6.html)
 
 ### [湊川あい](https://twitter.com/llminatoll)さん
 
